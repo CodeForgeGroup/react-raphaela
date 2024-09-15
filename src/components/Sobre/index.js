@@ -1,7 +1,7 @@
 import React from "react";
 import './sobre.css';
-import imgSobre1 from '../../assets/images/sobre2.jpeg';
-import imgSobre2 from '../../assets/images/sobre3.jpeg';
+import imgSobre1 from '../../assets/images/sobre/sobre2.jpeg';
+import imgSobre2 from '../../assets/images/sobre/sobre3.jpeg';
 
 function Sobre() {
     return (

@@ -35,20 +35,21 @@ html, body {
     max-width: 500px;
 }
 
-/* Alinhamento específico para o segundo item */
+
 .sobre-item:nth-of-type(2) {
-    flex-direction: row-reverse; /* Inverte a ordem dos itens */
+    flex-direction: row-reverse; 
 }
 
-/* Alinhamento para ajustar a posição do texto com a imagem */
+
 .sobre-item:nth-of-type(2) .texto-sobre {
-    margin-right: 14%; /* Ajusta a margem direita do texto */
+    margin-right: 14%; 
 }
 
 h2 {
     font-size: 20px;
     margin-bottom: 10px;
     font-family: 'Poppins', sans-serif;
+    color: blue;
 }
 
 p {
