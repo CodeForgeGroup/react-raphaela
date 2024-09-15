@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+nav {
+    background-color: blue;
+    display: flex;
+    justify-content: center; /* Centraliza os links "Home" e "Contato" */
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    left: 20px; /* Alinha a logo à esquerda */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Centraliza "Home" e "Contato" */
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 0 10px;
+}
+
+button {
+    width: 130px;
+    height: 30px;
+    border-radius: 20px;
+    border: 0px;
+}
+
+.buttonHome {
+    background-color: white;
+}
+
+.buttonHome a {
+    color: #FF8C00;
+    font-size: 13pt;
+    font-weight: 630;
+    font-family: 'Poppins';
+}
+
+.buttonContato {
+    background-color: #13278F;
+}
+
+.buttonContato a {
+    color: white;
+    font-size: 13pt;
+    font-weight: 630;
+    font-family: 'Poppins';
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.login-button {
+    position: absolute;
+    right: 20px; /* Alinha o botão "Login" à direita */
+    font-family: 'Poppins';
+}
