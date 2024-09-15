@@ -1,0 +1,33 @@
+.banner {
+    background-image: url('../../assets/images/Banner\ -\ Home.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+
+.banner-content {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-text, .right-text {
+    width: 45%;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}

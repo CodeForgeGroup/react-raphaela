@@ -3,7 +3,7 @@
 nav {
     background-color: blue;
     display: flex;
-    justify-content: center; /* Centraliza os links "Home" e "Contato" */
+    justify-content: center;
     align-items: center;
     padding: 20px;
     position: relative;
@@ -11,13 +11,14 @@ nav {
 
 .logo {
     position: absolute;
-    left: 20px; /* Alinha a logo à esquerda */
+    left: 20px; 
+    width: 100px;
 }
 
 .nav-links {
     list-style: none;
     display: flex;
-    justify-content: center; /* Centraliza "Home" e "Contato" */
+    justify-content: center; 
     padding: 0;
     margin: 0;
 }
@@ -62,6 +63,17 @@ a {
 
 .login-button {
     position: absolute;
-    right: 20px; /* Alinha o botão "Login" à direita */
+    right: 20px;
+    background-color: white;
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    border: 0px;
+    text-align: center;
+}
+
+.login-button a {
+    color: #FF8C00;
+    font-weight: 630;
     font-family: 'Poppins';
 }
