@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 import Sobre from "./components/Sobre";
@@ -8,13 +9,15 @@ import './App.css';
 
 function App() {
   return (
+    <Router>
       <div>
-          <Navbar />
-          <Banner />
-          <Sobre />
-          <Equipe />
-          <Footer />
+        <Navbar />
+        <Banner />
+        <Sobre />
+        <Equipe />
+        <Footer />
       </div>
+    </Router>
   );
 }
 
