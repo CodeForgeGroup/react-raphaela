@@ -5,7 +5,7 @@ import imgSobre2 from '../../assets/images/sobre/sobre3.jpeg';
 
 function Sobre() {
     return (
-        <section className="sobre">
+        <section className="sobre" id="sobre">
             <div className="sobre-item">
                 <img src={imgSobre1} alt="" className="imagem-sobre"/>
                 <div className="texto-sobre">
